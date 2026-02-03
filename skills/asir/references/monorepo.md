@@ -36,14 +36,14 @@ Have scripts in each package, and use `-r` (recursive) at root. Enable ESLint ca
 // root package.json
 {
   "scripts": {
-    "build": "pnpm -r --filter ./packages/** build",
+    "build": "pnpm -r --filter \"./packages/*\" build",
     "test": "vitest",
     "lint": "eslint . --cache --concurrency=auto",
     "typecheck": "tsc --noEmit",
     "docs": "pnpm -C docs run docs:dev",
     "docs:build": "pnpm -C docs run docs:build",
     "version": "bumpp -r",
-    "release": "pnpm -r --filter ./packages/** publish",
+    "release": "pnpm -r --filter \"./packages/*\" publish",
   }
 }
 ```
