@@ -1,0 +1,10 @@
+{
+  "name": "skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "skills:sync": "node scripts/skills-sync.mjs --sync",
+    "skills:clean": "node scripts/skills-sync.mjs --clean",
+    "skills:sync:dry": "node scripts/skills-sync.mjs --sync --dry-run"
+  }
+}

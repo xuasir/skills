@@ -1,0 +1,109 @@
+{
+  "skillsPath": "skills",
+  "skillsDir": "skills",
+  "protected": [
+    "asir"
+  ],
+  "targets": [
+    {
+      "name": "vue",
+      "repo": "https://github.com/vuejs/docs",
+      "skills": {
+        "vue": "vue"
+      }
+    },
+    {
+      "name": "nuxt",
+      "repo": "https://github.com/nuxt/nuxt",
+      "skills": {
+        "nuxt": "nuxt"
+      }
+    },
+    {
+      "name": "vite",
+      "repo": "https://github.com/vitejs/vite",
+      "skills": {
+        "vite": "vite"
+      }
+    },
+    {
+      "name": "unocss",
+      "repo": "https://github.com/unocss/unocss",
+      "skills": {
+        "unocss": "unocss"
+      }
+    },
+    {
+      "name": "pnpm",
+      "repo": "https://github.com/pnpm/pnpm.io",
+      "skills": {
+        "pnpm": "pnpm"
+      }
+    },
+    {
+      "name": "pinia",
+      "repo": "https://github.com/vuejs/pinia",
+      "skills": {
+        "pinia": "pinia"
+      }
+    },
+    {
+      "name": "vitest",
+      "repo": "https://github.com/vitest-dev/vitest",
+      "skills": {
+        "vitest": "vitest"
+      }
+    },
+    {
+      "name": "vitepress",
+      "repo": "https://github.com/vuejs/vitepress",
+      "skills": {
+        "vitepress": "vitepress"
+      }
+    },
+    {
+      "name": "slidev",
+      "repo": "https://github.com/slidevjs/slidev",
+      "skills": {
+        "slidev": "slidev"
+      }
+    },
+    {
+      "name": "vueuse",
+      "repo": "https://github.com/vueuse/skills",
+      "skills": {
+        "vueuse-functions": "vueuse-functions"
+      }
+    },
+    {
+      "name": "tsdown",
+      "repo": "https://github.com/rolldown/tsdown",
+      "skills": {
+        "tsdown": "tsdown"
+      }
+    },
+    {
+      "name": "vuejs-ai",
+      "repo": "https://github.com/vuejs-ai/skills",
+      "skills": {
+        "vue-best-practices": "vue-best-practices",
+        "vue-router-best-practices": "vue-router-best-practices",
+        "vue-testing-best-practices": "vue-testing-best-practices"
+      }
+    },
+    {
+      "name": "turborepo",
+      "repo": "https://github.com/vercel/turborepo",
+      "skills": {
+        "turborepo": "turborepo"
+      }
+    },
+    {
+      "name": "web-design-guidelines",
+      "repo": "https://github.com/vercel-labs/agent-skills",
+      "skills": {
+        "web-design-guidelines": "web-design-guidelines"
+      }
+    }
+  ]
+}
