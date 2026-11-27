@@ -16,8 +16,8 @@ const { remaining, start, stop, pause, resume } = useCountdown(countdownSeconds,
   onComplete() {
 
   },
-  onTick() {
-
+  onTick(remaining) {
+    console.log(remaining)
   }
 })
 ```
@@ -51,26 +51,13 @@ start()
 ```ts
 export interface UseCountdownOptions extends ConfigurableScheduler {
   /**
-   *  Interval for the countdown in milliseconds. Default is 1000ms.
-   *
-   * @deprecated Please use `scheduler` option instead
-   */
-  interval?: MaybeRefOrGetter<number>
-  /**
    * Callback function called when the countdown reaches 0.
    */
   onComplete?: () => void
   /**
-   * Callback function called on each tick of the countdown.
+   * Callback function called on each tick with the updated remaining value.
    */
-  onTick?: () => void
-  /**
-   * Start the countdown immediately
-   *
-   * @deprecated Please use `scheduler` option instead
-   * @default false
-   */
-  immediate?: boolean
+  onTick?: (remaining: number) => void
 }
 export interface UseCountdownReturn extends Pausable {
   /**
